@@ -1,3 +1,3 @@
 .vscode
 learn
-.gitignore
+__pycache__
