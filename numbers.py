@@ -61,7 +61,10 @@ print(num_1 <= num_2)
 print('\n')
 
 
+#####
 # STRINGS AND NUMBERS (CASTING)
+#####
+
 num_1 = '100'   # Those are strings!
 num_2 = '200'
 
