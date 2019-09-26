@@ -2,9 +2,12 @@
 # NUMBERS
 #####
 
+
 num_1 = 3
 num_2 = 3.14
 
+
+print(num_1)
 print(type(num_1))       # Type Int
 print(type(num_2))       # Type Float
 
@@ -17,37 +20,41 @@ print(type(num_2))       # Type Float
 # Multiplication:   3 * 2
 # Division:         3 / 2
 # Floor Division:   3 // 2      # Removes the decimal part
-# Exponent:         3 ** 2
+# Exponent:         3 ** 4
 # Modulus:          3 % 2
 
 # Try
-print(3 % 2)
+print('Prova operazioni base:')
+print(7 % 4)
 
 # Arithmetic variables
-num = 1
-num = num + 1
-print(num)      # 2
+num = 3
+num = num + 4
+print('Prova somma num = num + 1:')
+print(num)      # 7
 
-num = 1
-num += 2
-print(num)      # 3
+num = 2
+num *= 4
+print(num)      # 8
 
 print('\n')
 
 # Absolute value
-print(abs(-10))  # 3
+num = -10
+num = abs(num)
+print(num)  # 10
 
 # Rounding
 print(round(3.75))
 print(round(3.45))
 print(round(3.75, 1))
-print(round(3.768, 2))
+print(round(3.762, 2))
 
 print('\n')
 
 # COMPARISONS:
 # Equal:            3 == 2
-# Not Equal         3 != 2
+# Not Equal:         3 != 2
 # Greater Than:     3 > 2
 # Less Than:        3 < 2
 # Grater or Equal:  3 >= 2
@@ -56,6 +63,7 @@ print('\n')
 num_1 = 3
 num_2 = 2
 
+print('Comparisons:')
 print(num_1 == num_2)   # Returns and prints a boolean
 print(num_1 != num_2)
 print(num_1 <= num_2)
