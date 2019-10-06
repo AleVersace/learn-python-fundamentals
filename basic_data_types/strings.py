@@ -60,7 +60,7 @@ message.replace('World', 'Universe')    # Replace 'World' with 'Universe' and re
 print(message)                          # But replace doesn't modify the original variable
 
 new_message = message.replace('World', 'Universe')
-print(new_message)
+print('Questo è new_message ' + new_message)
 
 # If we want to change the original string we can do this.
 message = message.replace('World', 'Moon')

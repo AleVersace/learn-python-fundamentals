@@ -2,10 +2,11 @@
 # LISTS
 #####
 
-# Lists are mutable collections, we can modify them.
+# Lists are mutable, ordered collections that allow duplicates
 # Elements of lists are inside [ ]
 
-courses = ['History', 'Math', 'Physics', 'ComputerScience']
+courses = ['History', 'Math', 'Physics', 'ComputerScience', 'History']
+
 print(courses)
 print(len(courses))
 print(courses[0])           # Usage of index in lists
