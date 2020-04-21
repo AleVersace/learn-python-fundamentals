@@ -43,6 +43,7 @@ while c.isalpha():              # Not the fastest way to do this but useful to l
     else:
         break
 
+print(name.lower())
 
 
 # --------------------> <-------------------- #

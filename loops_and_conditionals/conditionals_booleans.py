@@ -116,7 +116,7 @@ print('\n')
 # Empty sequence IE. '', (), []
 # Empty map/dict {}
 
-condition = {}    # Try all the above!
+condition = None    # Try all the above!
 
 if condition:
     print('This is True')

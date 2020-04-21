@@ -41,6 +41,7 @@ del student['phone']
 print(student)
 age = student.pop('age')            # Removes and return the value
 print(age)
+print(student)
 
 
 print('\n')
